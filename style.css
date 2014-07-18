@@ -3,6 +3,13 @@ body {
 	background-color: #8DCDC1 !important;
 }
 
+@font-face {
+    font-family: "hillel";
+    src: url("hillelclm-medium-webfont.woff") format('woff');
+}
+
+
+
 p + p {
 	text-indent: initial;
 	margin-top: auto;
@@ -28,10 +35,12 @@ p + p {
 	height: 90%;
 	left: 1.5%;
 	right: 1.5%;
+	font-family: hillel;
 }
 
 .modal-content {
 	padding: 20px	;
+	font-family: hillel;
 }
 
 
@@ -141,7 +150,7 @@ and (max-width : 520px) {
 	}
 
 	.modal-dialog {
-		font-size: 20px;
+		font-size: 16px;
 		line-height: 1.4;
 	}
 
