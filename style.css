@@ -58,7 +58,8 @@ p + p {
 	height: 200px;
 	text-align: center;
 	vertical-align: top;
-	transition: all 3s ease;
+	transition: all 1s ease;
+
 	padding: 1em;
 	border-radius: 10px;
 	background-color: #D3E397;
@@ -66,6 +67,14 @@ p + p {
 	padding-bottom: 5em;
 	transform: translate3d(0,0,0);
 	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	color: rgb(80, 75, 75);
+}
+
+.link-cube:hover {
+	background-color: #E3CB97;
+	text-decoration: none;
+	width: 27%;
 }
 
 .link-cube .img-c {
@@ -128,3 +137,7 @@ and (max-width : 520px) {
 
 }
 
+#img-cont {
+	width: 100%;
+	text-align: center;
+}
