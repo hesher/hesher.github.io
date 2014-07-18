@@ -144,6 +144,10 @@ and (max-width : 520px) {
 		font-size: 20px;
 		line-height: 1.4;
 	}
+
+	.modal-dialog h4 {
+		font-size: xx-large;
+	}
 }
 
 #img-cont {
