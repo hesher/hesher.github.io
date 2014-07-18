@@ -139,6 +139,11 @@ and (max-width : 520px) {
 		background-color: #E3CB97;
 		width: 82%;
 	}
+
+	.modal-dialog {
+		font-size: 20px;
+		line-height: 1.4;
+	}
 }
 
 #img-cont {
