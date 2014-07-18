@@ -1,0 +1,130 @@
+/* Put your css in here */
+body {
+	background-color: #8DCDC1 !important;
+}
+
+p + p {
+	text-indent: initial;
+	margin-top: auto;
+}
+
+#topbar {
+	border: 1px solid gray;
+	position: absolute;
+	height: 1em;
+	padding: 0.5em;
+	left: 1.5%;
+	right: 1.5%;
+	border-radius: 5px;
+	/* background-color: #FA7A6E; */
+
+}
+
+
+#content {
+	position: absolute;
+	/* border: 1px dashed rgba(0,0,0,0.3); */
+	top: 3em;
+	height: 90%;
+	left: 1.5%;
+	right: 1.5%;
+}
+
+.modal-content {
+	padding: 20px	;
+}
+
+
+#name {
+	text-align: center;
+	/* border: 1px dashed rgba(0,0,0,0.3); */
+	position: absolute;
+	width: 100%;
+	top: 30px;
+}
+
+#links {
+	position: relative;
+	top: 30%;
+	text-align: center;
+	/* border: 1px dashed rgba(0,0,0,0.3); */
+}
+
+.link-cube {
+	margin-left: 1em;
+	display: inline-block;
+	border: 1px solid gray;
+	width: 26%;
+	height: 200px;
+	text-align: center;
+	vertical-align: top;
+	transition: all 3s ease;
+	padding: 1em;
+	border-radius: 10px;
+	background-color: #D3E397;
+	position: relative;
+	padding-bottom: 5em;
+	transform: translate3d(0,0,0);
+	-webkit-font-smoothing: antialiased;
+}
+
+.link-cube .img-c {
+	height: 200px;
+	width: 100%;
+	text-align: right;
+	bottom:-10em;
+	position: absolute;
+}
+
+.link-cube .img-c img {
+	height: 100%;
+}
+
+.first, .second {
+	display: block;
+}
+
+div.bottom h4 {
+	display: inline-block;
+	width: 230px;
+}
+
+div.bottom {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+img.tamar {
+	height: 10em;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 520px) {
+	.link-cube {
+		width: 80%;
+		height: 100%;
+		vertical-align: top;
+		padding: 1em;
+		border-radius: 5px;
+		padding-bottom: 4em;
+		margin-bottom: 8em;
+}
+	#name {
+		top: 0px;
+	}
+	#links {
+		top: 22em;
+		/* border: 1px dashed rgba(0,0,0,0.3); */
+	}
+	.bottom {
+		bottom: initial;
+		top: 12em;
+		height: 0;
+	}
+
+}
+

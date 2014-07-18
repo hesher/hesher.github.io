@@ -1,1 +1,74 @@
-Hello World
+<!DOCTYPE html>
+<html ng-app="PersonalWebsite">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Tamar Turner Katz</title>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+
+
+    <link rel="stylesheet" href="typeplate.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <link rel="icon" type="image/png" href="giraffe.png">
+
+    <script src="https://code.angularjs.org/1.2.16/angular.js"></script>
+    <script src="ui-bootstrap-tpls-0.11.0.min.js" type="text/javascript"></script>
+<!--    <script src="dialogs.min.js" type="text/javascript"></script> -->
+
+
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl" dir="rtl">
+  	<div id="content">
+  		<div id="name" >
+  			<h1 class="giga">
+  				תמר טורנר כץ
+  			</h1>
+        <h2>
+          טיפול ואבחון פסיכולוגי
+        </h2>
+  		</div>
+  		<div id="links">
+  			<div id="school" class="link-cube" ng-click="open('tamar');" jiggly>
+  				<p>
+            <h2>
+  					 <span class="first">קצת עלי</span>
+  				  </h2>
+          </p>
+        <div class="img-c"><img src="whale.png" /></div>
+  			</div>
+  			<div id="soft" class="link-cube" ng-click="open('infants');" jiggly>
+          <p>
+            <h2>
+              <span class="first">הגיל הרך</span>
+            </h2>
+          </p>
+          <div class="img-c"><img src="giraffe.png" /></div>
+        </div>
+        <div id="kinder" class="link-cube" ng-click="open('kids');" jiggly>
+  				<p>
+            <h2>
+  			      <span class="first">ילדי גן ובית הספר</span>
+  				  </h2>
+          </p>
+          <div class="img-c"><img src="baby.png" /></div>
+  			</div>
+  		</div>
+      <div class="bottom">
+        <h4 class="phone">052-88-77-531</h4>
+        <h4 class="email">turner.tamar@gmail.com</h4>
+        <h4 class="city">חיפה</h4>
+      </div>
+  	</div>
+  </body>
+
+</html>

@@ -1,0 +1,550 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jslint' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose cache add [ 'jslint', null ]
+5 verbose cache add name=undefined spec="jslint" args=["jslint",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jslint',
+6 verbose parsed url   path: 'jslint',
+6 verbose parsed url   href: 'jslint' }
+7 silly lockFile 606b7026-jslint jslint
+8 verbose lock jslint /Users/Ben_Katz/.npm/606b7026-jslint.lock
+9 silly lockFile 606b7026-jslint jslint
+10 silly lockFile 606b7026-jslint jslint
+11 verbose addNamed [ 'jslint', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 564fcf84-jslint jslint@
+14 verbose lock jslint@ /Users/Ben_Katz/.npm/564fcf84-jslint.lock
+15 silly addNameRange { name: 'jslint', range: '*', hasData: false }
+16 verbose url raw jslint
+17 verbose url resolving [ 'https://registry.npmjs.org/', './jslint' ]
+18 verbose url resolved https://registry.npmjs.org/jslint
+19 info trying registry request attempt 1 at 08:45:48
+20 http GET https://registry.npmjs.org/jslint
+21 http 200 https://registry.npmjs.org/jslint
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Wed, 09 Jul 2014 05:45:49 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"5WFUANRCENVVHAEV7WFAAC824"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=30',
+22 silly registry.get     'content-length': '60769',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '13038',
+22 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1404884749.559970,VS0,VE119',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'jslint', range: '*', hasData: true }
+24 silly addNameRange versions [ 'jslint',
+24 silly addNameRange   [ '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.1.10',
+24 silly addNameRange     '0.1.11',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7',
+24 silly addNameRange     '0.2.8',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.2.11',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2' ] ]
+25 verbose addNamed [ 'jslint', '0.5.2' ]
+26 verbose addNamed [ '0.5.2', '0.5.2' ]
+27 silly lockFile 8e19ea03-jslint-0-5-2 jslint@0.5.2
+28 verbose lock jslint@0.5.2 /Users/Ben_Katz/.npm/8e19ea03-jslint-0-5-2.lock
+29 silly lockFile eba28389-pmjs-org-jslint-jslint-0-5-2-tgz https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz
+30 verbose lock https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz /Users/Ben_Katz/.npm/eba28389-pmjs-org-jslint-jslint-0-5-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz',
+31 verbose addRemoteTarball   '232ed6f6db01bb33972401c2688d999514bcb09c' ]
+32 info retry fetch attempt 1 at 08:45:49
+33 verbose fetch to= /var/folders/4s/t26_x99d6656x8j6lncss3dw0000gp/T/npm-30156-d5q-z_H_/registry.npmjs.org/jslint/-/jslint-0.5.2.tgz
+34 http GET https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz
+35 http 200 https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz
+36 silly lockFile eba28389-pmjs-org-jslint-jslint-0-5-2-tgz https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz
+37 silly lockFile eba28389-pmjs-org-jslint-jslint-0-5-2-tgz https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz
+38 silly lockFile 8e19ea03-jslint-0-5-2 jslint@0.5.2
+39 silly lockFile 8e19ea03-jslint-0-5-2 jslint@0.5.2
+40 silly lockFile 564fcf84-jslint jslint@
+41 silly lockFile 564fcf84-jslint jslint@
+42 silly resolved [ { name: 'jslint',
+42 silly resolved     description: 'The JavaScript Code Quality Tool',
+42 silly resolved     homepage: 'https://github.com/reid/node-jslint',
+42 silly resolved     keywords: [ 'lint' ],
+42 silly resolved     version: '0.5.2',
+42 silly resolved     author: { name: 'Reid Burke', email: 'me@reidburke.com' },
+42 silly resolved     contributors:
+42 silly resolved      [ [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object] ],
+42 silly resolved     bin: { jslint: './bin/jslint.js' },
+42 silly resolved     main: './lib/nodelint.js',
+42 silly resolved     dependencies: { nopt: '~1.0.0', 'readable-stream': '~1.0.0', glob: '~3.2.8' },
+42 silly resolved     devDependencies:
+42 silly resolved      { ronn: '0.4.0',
+42 silly resolved        istanbul: '~0.1.44',
+42 silly resolved        mocha: '~1.14.0',
+42 silly resolved        'fs.extra': '~1.2.1' },
+42 silly resolved     optionalDependencies: { glob: '~3.2.8' },
+42 silly resolved     engines: { node: '>=0.4.0' },
+42 silly resolved     files: [ 'man', 'doc', 'lib', 'bin', 'jslintrc.example', 'Makefile' ],
+42 silly resolved     directories: { lib: './lib', man: './man', doc: './doc' },
+42 silly resolved     man: [ './man/jslint.1' ],
+42 silly resolved     repository: { type: 'git', url: 'git://github.com/reid/node-jslint.git' },
+42 silly resolved     bugs: { url: 'https://github.com/reid/node-jslint/issues' },
+42 silly resolved     licenses: [ [Object] ],
+42 silly resolved     scripts: { test: 'make test', prepublish: 'make prepublish' },
+42 silly resolved     _id: 'jslint@0.5.2',
+42 silly resolved     dist:
+42 silly resolved      { shasum: '232ed6f6db01bb33972401c2688d999514bcb09c',
+42 silly resolved        tarball: 'http://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz' },
+42 silly resolved     _from: 'jslint@',
+42 silly resolved     _npmVersion: '1.4.6',
+42 silly resolved     _npmUser: { name: 'smikes', email: 'smikes@cubane.com' },
+42 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+42 silly resolved     _shasum: '232ed6f6db01bb33972401c2688d999514bcb09c',
+42 silly resolved     _resolved: 'https://registry.npmjs.org/jslint/-/jslint-0.5.2.tgz' } ]
+43 info install jslint@0.5.2 into /Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite
+44 info installOne jslint@0.5.2
+45 info /Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint unbuild
+46 verbose tar unpack /Users/Ben_Katz/.npm/jslint/0.5.2/package.tgz
+47 silly lockFile 86b384d4-amarswebsite-node-modules-jslint tar:///Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint
+48 verbose lock tar:///Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint /Users/Ben_Katz/.npm/86b384d4-amarswebsite-node-modules-jslint.lock
+49 silly lockFile 0e6ad37c-atz-npm-jslint-0-5-2-package-tgz tar:///Users/Ben_Katz/.npm/jslint/0.5.2/package.tgz
+50 verbose lock tar:///Users/Ben_Katz/.npm/jslint/0.5.2/package.tgz /Users/Ben_Katz/.npm/0e6ad37c-atz-npm-jslint-0-5-2-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+56 silly gunzTarPerm extractEntry Makefile
+57 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+58 silly gunzTarPerm extractEntry bin/jslint.js
+59 silly gunzTarPerm modified mode [ 'bin/jslint.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry doc/jslint.html
+61 silly gunzTarPerm modified mode [ 'doc/jslint.html', 438, 420 ]
+62 silly gunzTarPerm extractEntry doc/jslint.md
+63 silly gunzTarPerm modified mode [ 'doc/jslint.md', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/color.js
+65 silly gunzTarPerm modified mode [ 'lib/color.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry lib/jslint-2013-11-23.js
+67 silly gunzTarPerm modified mode [ 'lib/jslint-2013-11-23.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry lib/jslint-2014-01-26.js
+69 silly gunzTarPerm modified mode [ 'lib/jslint-2014-01-26.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry lib/jslint-2014-02-06.js
+71 silly gunzTarPerm modified mode [ 'lib/jslint-2014-02-06.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry lib/jslint-2013-09-22.js
+73 silly gunzTarPerm modified mode [ 'lib/jslint-2013-09-22.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry lib/fileopener.js
+75 silly gunzTarPerm modified mode [ 'lib/fileopener.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry lib/jslint.js
+77 silly gunzTarPerm modified mode [ 'lib/jslint.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry lib/jsonreportstream.js
+79 silly gunzTarPerm modified mode [ 'lib/jsonreportstream.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry lib/linter.js
+81 silly gunzTarPerm modified mode [ 'lib/linter.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry lib/lintstream.js
+83 silly gunzTarPerm modified mode [ 'lib/lintstream.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry lib/jslint-2013-08-26.js
+85 silly gunzTarPerm modified mode [ 'lib/jslint-2013-08-26.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry lib/main.js
+87 silly gunzTarPerm modified mode [ 'lib/main.js', 438, 420 ]
+88 silly gunzTarPerm extractEntry lib/jslint-2013-08-13.js
+89 silly gunzTarPerm modified mode [ 'lib/jslint-2013-08-13.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry lib/nodelint.js
+91 silly gunzTarPerm modified mode [ 'lib/nodelint.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry lib/jslint-2013-02-03.js
+93 silly gunzTarPerm modified mode [ 'lib/jslint-2013-02-03.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry lib/options.js
+95 silly gunzTarPerm modified mode [ 'lib/options.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry lib/jslint-2012-02-03.js
+97 silly gunzTarPerm modified mode [ 'lib/jslint-2012-02-03.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry lib/reporter.js
+99 silly gunzTarPerm modified mode [ 'lib/reporter.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry lib/jslint-2014-04-21.js
+101 silly gunzTarPerm modified mode [ 'lib/jslint-2014-04-21.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry lib/reportstream.js
+103 silly gunzTarPerm modified mode [ 'lib/reportstream.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry lib/jslint-latest.js
+105 silly gunzTarPerm modified mode [ 'lib/jslint-latest.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry lib/options.js~
+107 silly gunzTarPerm modified mode [ 'lib/options.js~', 438, 420 ]
+108 silly gunzTarPerm extractEntry lib/reporter.js~
+109 silly gunzTarPerm modified mode [ 'lib/reporter.js~', 438, 420 ]
+110 silly gunzTarPerm extractEntry man/jslint.1
+111 silly gunzTarPerm modified mode [ 'man/jslint.1', 438, 420 ]
+112 silly lockFile 86b384d4-amarswebsite-node-modules-jslint tar:///Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint
+113 silly lockFile 86b384d4-amarswebsite-node-modules-jslint tar:///Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint
+114 silly lockFile 0e6ad37c-atz-npm-jslint-0-5-2-package-tgz tar:///Users/Ben_Katz/.npm/jslint/0.5.2/package.tgz
+115 silly lockFile 0e6ad37c-atz-npm-jslint-0-5-2-package-tgz tar:///Users/Ben_Katz/.npm/jslint/0.5.2/package.tgz
+116 info preinstall jslint@0.5.2
+117 verbose readDependencies using package.json deps
+118 verbose readDependencies using package.json deps
+119 verbose cache add [ 'nopt@~1.0.0', null ]
+120 verbose cache add name=undefined spec="nopt@~1.0.0" args=["nopt@~1.0.0",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'nopt@~1.0.0',
+121 verbose parsed url   path: 'nopt@~1.0.0',
+121 verbose parsed url   href: 'nopt@~1.0.0' }
+122 verbose cache add [ 'readable-stream@~1.0.0', null ]
+123 verbose cache add name=undefined spec="readable-stream@~1.0.0" args=["readable-stream@~1.0.0",null]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'readable-stream@~1.0.0',
+124 verbose parsed url   path: 'readable-stream@~1.0.0',
+124 verbose parsed url   href: 'readable-stream@~1.0.0' }
+125 verbose cache add name="nopt" spec="~1.0.0" args=["nopt","~1.0.0"]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '~1.0.0',
+126 verbose parsed url   path: '~1.0.0',
+126 verbose parsed url   href: '~1.0.0' }
+127 verbose addNamed [ 'nopt', '~1.0.0' ]
+128 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+129 silly lockFile b12eed16-nopt-1-0-0 nopt@~1.0.0
+130 verbose lock nopt@~1.0.0 /Users/Ben_Katz/.npm/b12eed16-nopt-1-0-0.lock
+131 verbose cache add name="readable-stream" spec="~1.0.0" args=["readable-stream","~1.0.0"]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: '~1.0.0',
+132 verbose parsed url   path: '~1.0.0',
+132 verbose parsed url   href: '~1.0.0' }
+133 verbose addNamed [ 'readable-stream', '~1.0.0' ]
+134 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+135 silly lockFile 87dee724-readable-stream-1-0-0 readable-stream@~1.0.0
+136 verbose lock readable-stream@~1.0.0 /Users/Ben_Katz/.npm/87dee724-readable-stream-1-0-0.lock
+137 verbose cache add [ 'glob@~3.2.8', null ]
+138 verbose cache add name=undefined spec="glob@~3.2.8" args=["glob@~3.2.8",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'glob@~3.2.8',
+139 verbose parsed url   path: 'glob@~3.2.8',
+139 verbose parsed url   href: 'glob@~3.2.8' }
+140 verbose cache add name="glob" spec="~3.2.8" args=["glob","~3.2.8"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '~3.2.8',
+141 verbose parsed url   path: '~3.2.8',
+141 verbose parsed url   href: '~3.2.8' }
+142 verbose addNamed [ 'glob', '~3.2.8' ]
+143 verbose addNamed [ null, '>=3.2.8-0 <3.3.0-0' ]
+144 silly lockFile 5bb09921-glob-3-2-8 glob@~3.2.8
+145 verbose lock glob@~3.2.8 /Users/Ben_Katz/.npm/5bb09921-glob-3-2-8.lock
+146 silly addNameRange { name: 'nopt', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+147 silly addNameRange { name: 'readable-stream',
+147 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+147 silly addNameRange   hasData: false }
+148 silly addNameRange { name: 'glob', range: '>=3.2.8-0 <3.3.0-0', hasData: false }
+149 verbose url raw nopt
+150 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+151 verbose url resolved https://registry.npmjs.org/nopt
+152 info trying registry request attempt 1 at 08:45:50
+153 verbose etag "C9FRFPXSIFPDKBMBKEILP7MDR"
+154 http GET https://registry.npmjs.org/nopt
+155 verbose url raw readable-stream
+156 verbose url resolving [ 'https://registry.npmjs.org/', './readable-stream' ]
+157 verbose url resolved https://registry.npmjs.org/readable-stream
+158 info trying registry request attempt 1 at 08:45:50
+159 verbose etag "YVHTVA1TD82J1GVC84ACF21N"
+160 http GET https://registry.npmjs.org/readable-stream
+161 verbose url raw glob
+162 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+163 verbose url resolved https://registry.npmjs.org/glob
+164 info trying registry request attempt 1 at 08:45:50
+165 verbose etag "CPY5T86VJRJXGJ6UGAXQ1H4F6"
+166 http GET https://registry.npmjs.org/glob
+167 http 304 https://registry.npmjs.org/nopt
+168 silly registry.get cb [ 304,
+168 silly registry.get   { date: 'Wed, 09 Jul 2014 05:45:51 GMT',
+168 silly registry.get     server: 'Apache',
+168 silly registry.get     via: '1.1 varnish',
+168 silly registry.get     'last-modified': 'Wed, 09 Jul 2014 05:45:43 GMT',
+168 silly registry.get     'cache-control': 'max-age=30',
+168 silly registry.get     etag: '"C9FRFPXSIFPDKBMBKEILP7MDR"',
+168 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+168 silly registry.get     'x-cache': 'HIT',
+168 silly registry.get     'x-cache-hits': '2',
+168 silly registry.get     'x-timer': 'S1404884751.006522,VS0,VE0',
+168 silly registry.get     vary: 'Accept',
+168 silly registry.get     'content-length': '0',
+168 silly registry.get     'keep-alive': 'timeout=10, max=50',
+168 silly registry.get     connection: 'Keep-Alive' } ]
+169 verbose etag nopt from cache
+170 http 304 https://registry.npmjs.org/readable-stream
+171 silly registry.get cb [ 304,
+171 silly registry.get   { date: 'Wed, 09 Jul 2014 05:45:51 GMT',
+171 silly registry.get     server: 'Apache',
+171 silly registry.get     via: '1.1 varnish',
+171 silly registry.get     'last-modified': 'Wed, 09 Jul 2014 05:45:51 GMT',
+171 silly registry.get     'cache-control': 'max-age=30',
+171 silly registry.get     etag: '"YVHTVA1TD82J1GVC84ACF21N"',
+171 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+171 silly registry.get     'x-cache': 'HIT',
+171 silly registry.get     'x-cache-hits': '1',
+171 silly registry.get     'x-timer': 'S1404884751.007984,VS0,VE0',
+171 silly registry.get     vary: 'Accept',
+171 silly registry.get     'content-length': '0',
+171 silly registry.get     'keep-alive': 'timeout=10, max=50',
+171 silly registry.get     connection: 'Keep-Alive' } ]
+172 verbose etag readable-stream from cache
+173 http 304 https://registry.npmjs.org/glob
+174 silly registry.get cb [ 304,
+174 silly registry.get   { date: 'Wed, 09 Jul 2014 05:45:51 GMT',
+174 silly registry.get     server: 'Apache',
+174 silly registry.get     via: '1.1 varnish',
+174 silly registry.get     'last-modified': 'Wed, 09 Jul 2014 05:45:43 GMT',
+174 silly registry.get     'cache-control': 'max-age=30',
+174 silly registry.get     etag: '"CPY5T86VJRJXGJ6UGAXQ1H4F6"',
+174 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+174 silly registry.get     'x-cache': 'HIT',
+174 silly registry.get     'x-cache-hits': '2',
+174 silly registry.get     'x-timer': 'S1404884751.010624,VS0,VE0',
+174 silly registry.get     vary: 'Accept',
+174 silly registry.get     'content-length': '0',
+174 silly registry.get     'keep-alive': 'timeout=10, max=50',
+174 silly registry.get     connection: 'Keep-Alive' } ]
+175 verbose etag glob from cache
+176 silly addNameRange number 2 { name: 'nopt', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+177 silly addNameRange versions [ 'nopt',
+177 silly addNameRange   [ '1.0.0',
+177 silly addNameRange     '1.0.1',
+177 silly addNameRange     '1.0.2',
+177 silly addNameRange     '1.0.3',
+177 silly addNameRange     '1.0.4',
+177 silly addNameRange     '1.0.5',
+177 silly addNameRange     '1.0.6',
+177 silly addNameRange     '1.0.7',
+177 silly addNameRange     '1.0.8',
+177 silly addNameRange     '1.0.9',
+177 silly addNameRange     '1.0.10',
+177 silly addNameRange     '2.0.0',
+177 silly addNameRange     '2.1.0',
+177 silly addNameRange     '2.1.1',
+177 silly addNameRange     '2.1.2',
+177 silly addNameRange     '2.2.0',
+177 silly addNameRange     '2.2.1',
+177 silly addNameRange     '3.0.0',
+177 silly addNameRange     '3.0.1' ] ]
+178 verbose addNamed [ 'nopt', '1.0.10' ]
+179 verbose addNamed [ '1.0.10', '1.0.10' ]
+180 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+181 verbose lock nopt@1.0.10 /Users/Ben_Katz/.npm/1be903a1-nopt-1-0-10.lock
+182 silly addNameRange number 2 { name: 'readable-stream',
+182 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+182 silly addNameRange   hasData: true }
+183 silly addNameRange versions [ 'readable-stream',
+183 silly addNameRange   [ '0.0.1',
+183 silly addNameRange     '0.0.2',
+183 silly addNameRange     '0.0.3',
+183 silly addNameRange     '0.0.4',
+183 silly addNameRange     '0.1.0',
+183 silly addNameRange     '0.2.0',
+183 silly addNameRange     '0.3.0',
+183 silly addNameRange     '0.3.1',
+183 silly addNameRange     '1.0.0',
+183 silly addNameRange     '1.0.1',
+183 silly addNameRange     '1.0.2',
+183 silly addNameRange     '1.0.15',
+183 silly addNameRange     '1.0.17',
+183 silly addNameRange     '1.1.7',
+183 silly addNameRange     '1.1.8',
+183 silly addNameRange     '1.1.9',
+183 silly addNameRange     '1.0.24',
+183 silly addNameRange     '1.0.25',
+183 silly addNameRange     '1.1.10',
+183 silly addNameRange     '1.0.25-1',
+183 silly addNameRange     '1.1.11',
+183 silly addNameRange     '1.0.26',
+183 silly addNameRange     '1.0.26-1',
+183 silly addNameRange     '1.1.11-1',
+183 silly addNameRange     '1.0.26-2',
+183 silly addNameRange     '1.1.12',
+183 silly addNameRange     '1.0.26-3',
+183 silly addNameRange     '1.0.26-4',
+183 silly addNameRange     '1.1.12-1',
+183 silly addNameRange     '1.0.27-1',
+183 silly addNameRange     '1.1.13-1' ] ]
+184 verbose addNamed [ 'readable-stream', '1.0.27-1' ]
+185 verbose addNamed [ '1.0.27-1', '1.0.27-1' ]
+186 silly lockFile 8088f056-readable-stream-1-0-27-1 readable-stream@1.0.27-1
+187 verbose lock readable-stream@1.0.27-1 /Users/Ben_Katz/.npm/8088f056-readable-stream-1-0-27-1.lock
+188 silly addNameRange number 2 { name: 'glob', range: '>=3.2.8-0 <3.3.0-0', hasData: true }
+189 silly addNameRange versions [ 'glob',
+189 silly addNameRange   [ '1.1.0',
+189 silly addNameRange     '2.0.9',
+189 silly addNameRange     '2.0.8',
+189 silly addNameRange     '2.0.7',
+189 silly addNameRange     '2.1.0',
+189 silly addNameRange     '3.0.0',
+189 silly addNameRange     '3.0.1',
+189 silly addNameRange     '3.1.0',
+189 silly addNameRange     '3.1.1',
+189 silly addNameRange     '3.1.2',
+189 silly addNameRange     '3.1.3',
+189 silly addNameRange     '3.1.4',
+189 silly addNameRange     '3.1.5',
+189 silly addNameRange     '3.1.6',
+189 silly addNameRange     '3.1.7',
+189 silly addNameRange     '3.1.9',
+189 silly addNameRange     '3.1.10',
+189 silly addNameRange     '3.1.11',
+189 silly addNameRange     '3.1.12',
+189 silly addNameRange     '3.1.13',
+189 silly addNameRange     '3.1.14',
+189 silly addNameRange     '3.1.15',
+189 silly addNameRange     '3.1.16',
+189 silly addNameRange     '3.1.17',
+189 silly addNameRange     '3.1.18',
+189 silly addNameRange     '3.1.19',
+189 silly addNameRange     '3.1.20',
+189 silly addNameRange     '3.1.21',
+189 silly addNameRange     '3.2.0',
+189 silly addNameRange     '3.2.1',
+189 silly addNameRange     '3.2.3',
+189 silly addNameRange     '3.2.4',
+189 silly addNameRange     '3.2.5',
+189 silly addNameRange     '3.2.6',
+189 silly addNameRange     '3.2.7',
+189 silly addNameRange     '3.2.8',
+189 silly addNameRange     '3.2.9',
+189 silly addNameRange     '3.2.10',
+189 silly addNameRange     '3.2.11',
+189 silly addNameRange     '4.0.0',
+189 silly addNameRange     '4.0.1',
+189 silly addNameRange     '4.0.2',
+189 silly addNameRange     '4.0.3' ] ]
+190 verbose addNamed [ 'glob', '3.2.11' ]
+191 verbose addNamed [ '3.2.11', '3.2.11' ]
+192 silly lockFile 3fffafa6-glob-3-2-11 glob@3.2.11
+193 verbose lock glob@3.2.11 /Users/Ben_Katz/.npm/3fffafa6-glob-3-2-11.lock
+194 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+195 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+196 silly lockFile b12eed16-nopt-1-0-0 nopt@~1.0.0
+197 silly lockFile b12eed16-nopt-1-0-0 nopt@~1.0.0
+198 silly lockFile 8088f056-readable-stream-1-0-27-1 readable-stream@1.0.27-1
+199 silly lockFile 8088f056-readable-stream-1-0-27-1 readable-stream@1.0.27-1
+200 verbose about to build /Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint
+201 info /Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/jslint unbuild
+202 info preuninstall jslint@0.5.2
+203 silly lockFile 3fffafa6-glob-3-2-11 glob@3.2.11
+204 silly lockFile 3fffafa6-glob-3-2-11 glob@3.2.11
+205 silly lockFile 87dee724-readable-stream-1-0-0 readable-stream@~1.0.0
+206 silly lockFile 87dee724-readable-stream-1-0-0 readable-stream@~1.0.0
+207 silly lockFile 5bb09921-glob-3-2-8 glob@~3.2.8
+208 silly lockFile 5bb09921-glob-3-2-8 glob@~3.2.8
+209 info uninstall jslint@0.5.2
+210 warn optional dep failed, continuing glob@~3.2.8
+211 verbose optional dep failed, continuing [ 'glob@~3.2.8',
+211 verbose optional dep failed, continuing   { [Error: EACCES, open '/Users/Ben_Katz/.npm/glob/3.2.11/package/package.json']
+211 verbose optional dep failed, continuing     errno: 3,
+211 verbose optional dep failed, continuing     code: 'EACCES',
+211 verbose optional dep failed, continuing     path: '/Users/Ben_Katz/.npm/glob/3.2.11/package/package.json' } ]
+212 verbose true,/Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules,/Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules unbuild jslint@0.5.2
+213 verbose /Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite/node_modules/.bin,[object Object] binRoot
+214 info postuninstall jslint@0.5.2
+215 error Error: EACCES, open '/Users/Ben_Katz/.npm/nopt/1.0.10/package/package.json'
+215 error  { [Error: EACCES, open '/Users/Ben_Katz/.npm/nopt/1.0.10/package/package.json']
+215 error   errno: 3,
+215 error   code: 'EACCES',
+215 error   path: '/Users/Ben_Katz/.npm/nopt/1.0.10/package/package.json',
+215 error   parent: 'jslint' }
+216 error Please try running this command again as root/Administrator.
+217 error System Darwin 13.3.0
+218 error command "node" "/usr/local/bin/npm" "install" "jslint"
+219 error cwd /Users/Ben_Katz/Dropbox/Public/htmlTesting/tamarswebsite
+220 error node -v v0.10.29
+221 error npm -v 1.4.14
+222 error path /Users/Ben_Katz/.npm/nopt/1.0.10/package/package.json
+223 error code EACCES
+224 error errno 3
+225 error stack Error: EACCES, open '/Users/Ben_Katz/.npm/nopt/1.0.10/package/package.json'
+226 verbose exit [ 3, true ]
