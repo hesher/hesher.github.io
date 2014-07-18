@@ -135,6 +135,10 @@ and (max-width : 520px) {
 		height: 0;
 	}
 
+	.link-cube:hover {
+		background-color: #E3CB97;
+		width: 82%;
+	}
 }
 
 #img-cont {
