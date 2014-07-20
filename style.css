@@ -121,7 +121,7 @@ img.tamar {
 
 /* Smartphones (portrait) ----------- */
 @media only screen
-and (max-width : 520px) {
+and (max-width : 650px) {
 	.link-cube {
 		width: 80%;
 		height: 100%;
