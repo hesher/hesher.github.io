@@ -3,7 +3,6 @@
 
 var app = angular.module('PersonalWebsite', ['ui.bootstrap']);
 
-
 function transformElm(elm, pTrans) {
     "use strict";
     elm.style.webkitTransform = pTrans;
@@ -58,7 +57,7 @@ app.directive("jiggly", ['$interval', function ($interval) {
                     transformElm(elm[0], "rotate(" + deg + "deg)");
                 }
 
-            }, 3000);
+            }, ((Math.random() * 1000) + 2000));
         }
     };
 }]);
