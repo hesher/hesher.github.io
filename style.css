@@ -39,8 +39,11 @@ p + p {
 }
 
 .modal-content {
-	padding: 20px	;
 	font-family: hillel;
+}
+
+.modal-content .info {
+	padding: 20px;
 }
 
 
@@ -63,7 +66,7 @@ p + p {
 	margin-left: 1em;
 	display: inline-block;
 	border: 1px solid gray;
-	width: 26%;
+	width: 16%;
 	height: 200px;
 	text-align: center;
 	vertical-align: top;
@@ -117,6 +120,21 @@ div.bottom {
 
 img.tamar {
 	height: 10em;
+}
+
+.article.story-telling {
+	background: url(images/starry-night.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*color: white;*/
+
+}
+
+.article.story-telling .overlay {
+	background-color: rgba(255,255,255, 0.7);
+	padding: 10px;
 }
 
 /* Smartphones (portrait) ----------- */

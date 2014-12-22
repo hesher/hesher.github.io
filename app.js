@@ -17,7 +17,8 @@ app.controller('MainCtrl', ['$scope', '$modal', function ($scope, $modal) {
   var dialogs = {
     infants: 'infants.html',
     kids: 'kids.html',
-    tamar: 'tamar.html'
+    tamar: 'tamar.html',
+    article: 'articles/story-telling.html'
   };
 
   $scope.open = function (which) {
