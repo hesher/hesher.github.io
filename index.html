@@ -18,6 +18,7 @@
 
     <script src="/bower_components/angular/angular.min.js"></script>
     <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" type="text/javascript"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="/scripts/app.js"></script>
     <script>/*jshint ignore:start*//*jscs:disable*/
 
@@ -35,7 +36,7 @@
 
   </head>
 
-  <body ng-controller="MainCtrl" dir="rtl">
+  <body ng-controller="MainCtrl" dir="rtl" ui-view>
   	<div id="content">
   		<div id="name" >
   			<h1 class="giga">
@@ -46,7 +47,7 @@
         </h2>
   		</div>
   		<div id="links">
-  			<a id="school" class="link-cube" ng-click="open('tamar');" jiggly>
+  			<a id="school" class="link-cube" ui-sref="tamar" jiggly>
   				<p>
             <h2>
   					 <span class="first">עלי</span>
@@ -54,7 +55,7 @@
           </p>
         <div class="img-c"><img src="images/whale.png" alt="About Me Dialog Icon"/></div>
   			</a>
-  			<a id="soft" class="link-cube" ng-click="open('infants');" jiggly>
+  			<a id="soft" class="link-cube" ui-sref="infants" jiggly>
           <p>
             <h2>
               <span class="first">הגיל הרך</span>
@@ -62,7 +63,7 @@
           </p>
           <div class="img-c"><img src="images/giraffe.png" alt="Infants Dialog Icon"/></div>
         </a>
-        <a id="kinder" class="link-cube" ng-click="open('kids');" jiggly>
+        <a id="kinder" class="link-cube" ui-sref="kids" jiggly>
   				<p>
             <h2>
   			      <span class="first">ילדי גן ובית הספר</span>
@@ -70,7 +71,7 @@
           </p>
           <div class="img-c"><img src="images/baby.png" alt="Infants Dialog Icon"/></div>
   			</a>
-        <a id="post" class="link-cube" ng-click="open('article')">
+        <a id="post" class="link-cube" ui-sref="article">
           <p>
             <h2>
             קריאה
