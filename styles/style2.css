@@ -3,6 +3,18 @@ body {
 	background-color: #8DCDC1 !important;
 }
 
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4{
+		font-size: 15px;
+	}
 @font-face {
     font-family: "hillel";
     src: url("hillelclm-medium-webfont.woff") format('woff');
@@ -67,7 +79,6 @@ p + p {
 	display: inline-block;
 	border: 1px solid gray;
 	width: 16%;
-	height: 200px;
 	text-align: center;
 	vertical-align: top;
 	transition: all 1s ease;
@@ -123,7 +134,7 @@ img.tamar {
 }
 
 .article.story-telling {
-	background: url(images/starry-night.jpg) no-repeat center center ;
+	background: url(/images/starry-night.jpg) no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
