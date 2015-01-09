@@ -1,0 +1,74 @@
+<html>
+<head>
+	<base href="/">
+	<script type="text/javascript" src="/bower_components/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="/bower_components/angular-ui-tinymce/src/tinymce.js"></script>
+	<script type="text/javascript" src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>>
+	<script type="text/javascript" src="/bower_components/firebase/firebase.js"></script>
+    <script type="text/javascript" src="/bower_components/angularfire/dist/angularfire.min.js"></script>
+
+	<script src="./blog.js" ></script>
+	<link href="./blog.css" rel="stylesheet">
+</head>
+<body ng-app="blogModule" ng-controller="blogControl" dir="rtl">
+
+<div id="content-container">
+	<div id="post-list" class="content">
+		<ul>
+			<li class="post-descriptor add">
+				<a href="#newpost">+</a>
+			</li>
+			<li><div id="loading-indicator" ng-hide="finishedLoading">Loading...</div></li>
+			<li ng-repeat="(postId, post) in blogPosts" class="post-descriptor">
+				<a href="#{{postId}}" ng-click="setActivePost(postId)">
+					<span class="title">
+						<h1>{{post.title}}</h1>
+					</span>
+					<span class="extra">
+						<span class="author">
+							<h2 ng-show="post.author">By {{post.author}}</h2>
+						</span>
+						<span class="time">
+							<h3 ng-show="post.time">On {{post.time | date:'medium'}}</h3>
+						</span>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="post-content" ng-class="{shown:(isAPostActive() && !isEditMode())}" class="content" >
+		<div ng-show="isAPostActive()">
+			<a href="#" class="close">Close</a>
+			<h1>{{activePost.title}}</h1>
+			<h2 ng-show="activePost.author">By {{activePost.author}}</h2> <h2 ng-show="activePost.time">On {{activePost.time | date:'medium'}}</h2>
+			<p class="html-content" ng-bind-html="activePost.content"></p>
+			<button ng-click="deleteActivePost()">Delete</input>
+			<button ng-click="startEdit()">Edit</input>
+		</div>
+	</div>
+	<div id="post-create" ng-class="{shown:(isAPostNew() || isEditMode())}" class="content" >
+		<form name='newpostForm'>
+			<ul>
+				<li><input type="text" ng-model="newpost.title" placeholder="Title" name="title" required></input>
+					<span class="error-msg" ng-show="newpostForm.title.$invalid">Required</span>
+				</li>
+				<li><input type="text" ng-model="newpost.author" placeholder="Author" name="author" required></input>
+					<span class="error-msg" ng-show="newpostForm.author.$invalid">Required</span>
+				</li>
+				<li><textarea type="text" ng-model="newpost.content" placeholder="Content" name="content" ui-tinymce="tinymceOptions" required></textarea>
+					<span class="error-msg" ng-show="newpostForm.content.$invalid">Required</span>
+				</li>
+			</ul>
+
+			<button ng-show="isAPostNew()" ng-disabled="newpostForm.$invalid" ng-click="addPost(newpost)">Add</button>
+			<button ng-show="isEditMode() && !isAPostNew()" ng-click="savePost(newpost)">Save</button>
+			<button ng-show="isEditMode() && !isAPostNew()" ng-click="cancelEdit()">Cancel</button>
+			<h3 class="error-msg" ng-show="newpostForm.$invalid">Some required fields have not been entered</h3>
+
+
+		</form>
+	</div
+</div>
+</body>
+</html>

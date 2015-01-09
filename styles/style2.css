@@ -3,18 +3,6 @@ body {
 	background-color: #8DCDC1 !important;
 }
 
-	h1{
-		font-size: 30px;
-	}
-	h2{
-		font-size: 25px;
-	}
-	h3{
-		font-size: 20px;
-	}
-	h4{
-		font-size: 15px;
-	}
 @font-face {
     font-family: "hillel";
     src: url("hillelclm-medium-webfont.woff") format('woff');
@@ -141,6 +129,32 @@ img.tamar {
     background-size: cover;
     /*color: white;*/
 
+}
+
+#posts {
+	display: block;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: rgba(211, 227, 151, 0.6);
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 95%;
+}
+#posts .post-content {
+	display: block;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 0 10px 0 10px;
+	font-family: hillel;
+}
+
+#posts>ul
+{
+    list-style-type: none;
+    padding: 0px;
 }
 
 .article.story-telling .overlay {

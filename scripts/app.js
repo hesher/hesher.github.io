@@ -1,7 +1,7 @@
 /*globals angular */
 /*jslint unparam: true, browser:true */
 
-var app = angular.module('PersonalWebsite', ['ui.bootstrap', 'ui.router']);
+var app = angular.module('PersonalWebsite', ['ui.bootstrap', 'ui.router', 'firebase', 'ngSanitize']);
 
 function transformElm(elm, pTrans) {
   'use strict';
