@@ -111,7 +111,7 @@ div.bottom h4 {
 
 div.bottom {
 	position: absolute;
-	bottom: 5px;
+	bottom: 85px;
 	width: 100%;
 	display: block;
 	text-align: center;
@@ -139,14 +139,14 @@ img.tamar {
 	position: absolute;
 	left: 20px;
 	right: 20px;
-	top: 95%;
+	top: 85%;
 }
 #posts .post-content {
 	display: block;
 	background-color: rgb(255, 255, 255);
 	border: 1px solid gray;
 	border-radius: 3px;
-	margin: 10px;
+	margin: 5px;
 	padding: 0 10px 0 10px;
 	font-family: hillel;
 }
@@ -199,6 +199,16 @@ and (max-width : 650px) {
 
 	.modal-dialog h4 {
 		font-size: xx-large;
+	}
+
+	#posts {
+		top: 80em;
+		left: 5px;
+		right: 5px;
+	}
+
+	#posts .post-content {
+		margin: 1px;
 	}
 }
 
