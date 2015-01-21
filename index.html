@@ -85,7 +85,7 @@
     <div ng-controller="posts" >
       <div id="posts" ng-if="isLoaded " >
         <ul>
-          <li ng-repeat="post in posts">
+          <li ng-repeat="post in posts | reverse">
             <div class="post-content">
               <div class="title">
                 <h2>{{post.title}}</h2>

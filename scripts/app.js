@@ -68,6 +68,12 @@ app.controller('MainCtrl', ['$scope', '$modal', function ($scope, $modal) {
 
 }]);
 
+app.filter('reverse', function () {
+  return function (items) {
+    return items.slice().reverse();
+  };
+});
+
 app.directive('jiggly', ['$interval', function ($interval) {
   'use strict';
   var isLastPositive = true;
